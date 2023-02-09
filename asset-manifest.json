@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/bodaguiago/static/css/main.27c3fc21.css",
+    "main.js": "/bodaguiago/static/js/main.9ceac011.js",
+    "static/js/787.fe8d1783.chunk.js": "/bodaguiago/static/js/787.fe8d1783.chunk.js",
+    "static/media/Guiago_12.jpg": "/bodaguiago/static/media/Guiago_12.1521092593c4bf2adc4a.jpg",
+    "index.html": "/bodaguiago/index.html",
+    "main.27c3fc21.css.map": "/bodaguiago/static/css/main.27c3fc21.css.map",
+    "main.9ceac011.js.map": "/bodaguiago/static/js/main.9ceac011.js.map",
+    "787.fe8d1783.chunk.js.map": "/bodaguiago/static/js/787.fe8d1783.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.27c3fc21.css",
+    "static/js/main.9ceac011.js"
+  ]
+}
