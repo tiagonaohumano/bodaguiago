@@ -1,0 +1,199 @@
+
+
+.confirmacion-container {
+  background-color: white;
+  padding: 30px;
+  
+}
+
+
+
+.form {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  border: 1px solid green;
+
+  
+}
+
+form {
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+
+
+
+
+
+input, textarea {
+  display: block;
+  width: 100%;
+  padding: 1rem;
+  height: 40px; 
+  border: none;
+  border: 1px solid green;
+}
+
+
+.form-group{
+    display: flex;
+    margin-bottom: 15px;
+    width: 100%;
+    justify-content: left;
+  }
+  
+  .form input{
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  .form-group label {
+    padding-left: 15px;
+    padding-top: 30px;
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    color: green;
+  }
+
+  .form-pergunta {
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 30px;
+  }
+
+  .radio-questions {
+    display: flex;
+    flex-direction: column;
+    width: 300vh;
+   }
+
+  .form-radio {
+    display: flex;
+  }
+
+  .radio-group {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+  }
+
+  .radio-group legend {
+    font-size: 1.1rem;
+    color: green;
+  }
+  
+  .radio, .checkbox {
+    cursor: pointer;
+    appearance: none;
+    width: 50px;
+    height: 30px;
+    border: 1px solid green;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+  }
+
+  input::placeholder {
+    color: green;
+  }
+
+  .checkbox-group {
+    padding-top: 15px;
+    padding-right: 40px;
+  }
+
+  .checkbox-group label {
+    padding-left: 40x;
+  }
+  
+  .checkbox {
+    border-radius: 0;
+  }
+
+  .checkbox-options {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+  }
+  
+  .radio:before, .checkbox:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: rgb(137, 170, 137);
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 600ms ease-in-out;
+    position: absolute;
+  }
+  
+  .checkbox:before {
+    border-radius: 0;
+    background: transparent;
+    border: 2px solid rgb(137, 170, 137);
+    border-left: 0;
+    border-top: 0;
+    width: 18px;
+    height: 30px;
+    transform: rotate(45deg);
+    top: 5px;
+  }
+  
+  .radio:checked:before, .checkbox:checked:before {
+    opacity: 1;
+  }
+  
+  .radio:focus, .checkbox:focus {
+    box-shadow: 0 0 5px grey;
+  }
+
+.form-observaciones {
+  display: flex;
+  width: 100%;
+}
+
+.observaciones {
+  width: 100%;
+}
+
+.observaciones textarea {
+  height: 60px; 
+  border: 1px solid green; 
+}
+
+.observaciones ::placeholder {
+  color: green;
+}
+
+.button{
+    width: 20%;
+    background-color: transparent;
+    padding: 10px;
+    margin: 0 auto;
+    border: 1px solid green;
+}
+
+.button:hover{
+  background-color: green;
+  color: white;
+}
+
+form hr {
+  width: 100%;
+  border-top: 1px solid green;
+  margin: 20px auto;
+}
+
+
+
+
+/* codigo novo*/
+

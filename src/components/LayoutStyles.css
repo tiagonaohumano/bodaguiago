@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Shadows+Into+Light&display=swap');
+
+.layout {
+    width: 100%;
+  
+    display: flex;
+    gap: 0px;
+    flex-wrap: wrap;
+    background-color: rgb(255, 255, 255);
+    padding-left: 0;
+  }
+
+  .App {
+    font-family: "Oxygen", sans-serif;
+  }
+  
+  .header { 
+    height: 11vh;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    
+}
+  .main { 
+    height: 80vh;
+    background-color: white;
+    width: 100%;
+    padding: 0;
+    margin: auto;
+    max-width: 1300px;
+}
+  .footer { 
+    height: 10vh;
+    width: 100%;
+}
+
+/* Titles */
+
+.title h2 {
+    font-size: 2rem;
+    cursor: pointer;
+    font-family: "Shadows Into Light", cursive;
+    margin-top: 10px;
+    text-align: center;
+    color: green;
+}
+
+.title h6 {
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    margin: 0;
+}
+
+/* Inicio */
+
+
+.home {
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    margin: 0;
+    max-width: 1200px;
+  }
+
+ .texto-home {
+    position: absolute;
+    background-color: white;
+    opacity: 0.9;
+    opacity: 1;
+    top: 90%;
+    left: 200px;
+    transform: translate(-40%, -60%);
+    font-family: "Shadows Into Light", cursive;
+    width: 400px;
+    height: 130px;
+    text-align: center;
+  }
+
+  .background-home {
+    background-image: url('/public/assets/images/Guiago_12.jpg');
+    height: 70vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    max-width: 1300px;
+    margin: auto;
+  }
+
+/* ------- Ubicación--------- */
+
+.ubicacion {
+    height: 40vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.mapa-ubicacion {
+    width: 80%;
+    height: 70%;
+    margin: 0 auto;
+    max-width: 40vh;
+    padding-top: 10px;
+}
+
+/* ------- Transporte--------- */
+
+.transporte{
+    height: 45vh;
+    width: 100%;
+    background-color: white;
+    padding-right: 30px;
+    text-align: justify;
+    
+}
+
+.container-title {
+    max-width: 40vh;
+    margin: auto;
+}
+
+.horario-autobus {
+    background-color: rgb(255, 255, 255);
+    margin-top: 30px;
+    max-width: 60vh;
+    margin: auto;
+    height: 20vh;
+}
+
+.autobus-ida, .autobus-vuelta {
+    background-color: white;
+    width: 20vh;
+    height: 16vh;
+    padding: 10px;  
+    box-shadow: 2px 2px 2px 2px rgb(226, 226, 226);
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+}
+
+.autobus-hora {
+    background-color: rgb(219, 233, 232);
+    padding: 10px;
+    width: 80px;
+    margin: auto;
+}
+
+/* ------- Alojamientos--------- */
+
+.alojamientos {
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 100px;
+}
+
+.alojamientos h2 {
+    padding-bottom: 20px;
+}
+
+.alojamientos-texto {
+    text-align: justify;
+    text-indent: 15px;
+    max-width: 800px;
+    margin: auto;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.lista-alojamientos2 {
+    background-color: rgb(255, 255, 255);
+    height: 40vh;
+    
+}
+
+.lista-alojamientos2 ul {
+    list-style-type: none;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 30px;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.lista-alojamientos2 a {
+    text-decoration: none;
+    color: green;
+}
+
+.lista-alojamientos2 a:hover {
+    color: blue;
+}
+
+.mapa-alojamientos {
+    width: 90%;
+    height: 40vh;
+}
+
+
+/* Carousel Container */
+
+.rascafria {
+    background-color: rgb(255, 255, 255);
+    height: 50vh;
+    width: 100%;
+    position: relative;
+  }
+  
+  .rascafria img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;      
+  }
+
+
+/* regalos */
+
+.regalos {
+    width: 100%;
+    height: 27vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.regalos-texto {
+    width: 80%;
+    height: 20vh;
+    margin: auto;
+    max-width: 800px;
+}
+
+.regalos-texto h2 {
+    padding-bottom: 20px;
+}
+
+.regalos-texto p {
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 1.1rem;
+    text-indent: 15px;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.cuenta {
+    text-align: center;
+}
+
+/* etiqueta */
+
+.etiqueta {
+    width: 100%;
+    height: 30vh;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.etiqueta-texto {
+    width: 80%;
+    height: 30vh;
+    margin: auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.etiqueta-texto h2 {
+    padding-bottom: 20px;
+}
+
+.etiqueta h4 {
+    text-align: center;
+}
+
+.etiqueta-texto p {
+    text-align: justify;
+    line-height: 1.4;
+    font-size: 1.1rem;
+    text-indent: 15px;
+}
+
+
+
+@media screen and (max-width: 750px) {
+
+    /* inicio */
+  
+    .home {
+        height: 40vh;
+      }
+    
+  
+      .texto-home {
+        opacity: 0.9;
+        top: 85%;
+        left: 190px;
+        transform: translate(-40%, -60%);
+        font-family: "Shadows Into Light", cursive;
+        width: 400px;
+        height: 120px;
+        padding-top: 5px;
+      }
+    
+      .background-home {
+        height: 40vh;
+      }
+
+
+      .rascafria {
+        height: 30vh;
+
+      }
+      
+      .rascafria img {
+        height: 30vh; 
+      }
+
+      .guiago {
+        height: 30vh;
+
+      }
+      
+      .guiago img {
+        height: 30vh; 
+      }
+
+      .lista-alojamientos2 ul {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        padding-top: 15px;
+    }
+     
+}

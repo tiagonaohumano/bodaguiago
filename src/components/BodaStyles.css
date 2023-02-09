@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Oxygen&family=Shadows+Into+Light&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&family=Shadows+Into+Light&display=swap');
+
+
+
+
+
+.App {
+  font-family: "Oxygen", sans-serif;
+  text-align: center;
+  background-color: rgb(71, 88, 85);
+  display: flex;
+
+}
+
+.hero-page {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* inicio */
+
+.container-inicio {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+
+.container-inicio img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+}
+
+.texto-inicio {
+  position: absolute;
+  background-color: #CCFFCC;
+  opacity: 0.6;
+  top: 50%;
+  left: 70%;
+  transform: translate(-40%, -60%);
+  font-family: "Shadows Into Light", cursive;
+  width: 400px;
+  height: 100px;
+}
+
+.background-inicio {
+  background-image: url('/public/assets/images/Guiago_03.jpg');
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: red;
+}
+
+
+
+/* Ubicación */
+
+.ubicacion-container {
+  width: 100%;
+  height: 40vh;
+  position: relative;
+  display: flex;
+  background-color: greenyellow;
+  margin-left: 0;
+}
+
+
+.ubicacion-mapa {
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border: 0;
+}
+
+/* Transporte */
+
+
+.transporte-container {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: blue;
+}
+
+.container-autobus {
+  display: flex;
+  flex-grow: 2;
+  height: 100vh;
+  margin-left: auto;
+}
+
+.transporte-text p {
+  font-size: 1.5rem;
+}
+
+.text-titles {
+  margin-top: 30px;
+  font-size: 1.4rem;
+}
+
+.text-titles h3 {
+  font-family: "Shadows Into Light", cursive;
+  font-size: 2em;
+}
+
+/* Alojamientos */
+
+.container-alojamientos {
+  height: 70vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  margin-top: 300px;
+  margin: 0px;
+  padding: 0px;
+  background-color: orange;
+}
+
+.list-group {
+  background-color: blue;
+  margin: auto;
+  background: blue;
+}
+
+
+.lista-alojamientos {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  background-color: red;
+}
+
+.lista-alojamientos h6 {
+font-size: 0.8rem;
+}
+
+.mapa-alojamientos {
+  display: flex;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.card-body {
+  background-color: transparent;
+  font-size: 1rem;
+  height: 160px;
+}
+
+.card-title {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 1rem;
+}
+
+
+
+
